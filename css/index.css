@@ -5,8 +5,22 @@
     background-color: black ;
     line-height:80px;
 }
-.nav li{
-    float: left;
-    position: relative;
+.menu a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none ;
+}
+.menu h1{
+    width: 200px;
+    display: inline;
+    margin-left: 0;
+    margin-right:80px ;
+}
+.menu  li{
+    display: inline;
+    margin-right: 40px;
+}
+.search_bar{
     display: inline;
 }
+
