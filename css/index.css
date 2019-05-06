@@ -1,0 +1,12 @@
+@charset "gb2312";
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: black ;
+    line-height:80px;
+}
+.nav li{
+    float: left;
+    position: relative;
+    display: inline;
+}
