@@ -26,9 +26,10 @@
 
 /*轮播图*/
 .swiper-wrapper img {
-    width: 550px;
+    width: 600px;
     height: 260px;
 }
+
 /*常用链接*/
 .links {
     display:block;
@@ -40,11 +41,12 @@
     height: 125px;
     border-radius: 5px;
 }
+
 /*名片*/
 .card {
     width: 280px;
     height: 262px;
-    background-color: black;
+    background-color: rgba(42,42,42,1);
     color: white;
     display: block;
     float: left;
@@ -54,14 +56,60 @@
 .card h1 {
     color:#cccccc;
     font-weight:normal;
-    margin: 5px;
+    margin:10px 10px 2px 20px;
 }
-.card ul{
-    margin:10px 10px 10px 20px;
+.card_info {
+    margin:20px 10px 10px 35px;
 }
-.card li{
+.personalInfo {
     color:#cccccc;
-    font-weight: normal;
     font-size: small;
     line-height: 30px;
+}
+.card_link {
+    margin-left: 30px;
+}
+.card_link li{
+    width: 53px;
+    height: 53px;
+    float: left;
+    margin: 0 3px;
+}
+.card_link li a{
+    height: 53px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card_link i{
+    display: block;
+    position: absolute;
+    top: 170px;
+    right: 145px;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+#qq:hover img{
+        display:block;
+    }
+#wechat:hover img {
+    display: block;
+}
+#git {
+    color: #ef5509;
+    background:url("../image/c01.png") no-repeat center;
+}
+#mail {
+    background: url("../image/c02.png") no-repeat center;
+}
+#qq {
+    background: url("../image/c03.png") no-repeat center;
+}
+#wechat {
+    background: url("../image/c04.png") no-repeat center;
 }
