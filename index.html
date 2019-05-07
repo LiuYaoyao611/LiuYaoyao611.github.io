@@ -9,9 +9,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css"  type="text/css" charset="utf-8">
     <link rel="stylesheet" href="./css/base.css"  type="text/css" charset="utf-8">
-    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <link rel="stylesheet" href="./css/swiper.min.css"  type="text/css" charset="utf-8">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="./js/Carousel.js"></script>
   </head>
   <body>
+  <!--头部固定导航开始-->
   <header>
     <div class="nav">
       <nav class="menu" id="topnav">
@@ -30,5 +33,28 @@
       </nav>
      </div>
   </header>
+  <!--头部固定导航结束-->
+  <article>
+    <!--轮播，用插件swiper-->
+    <div class="swiper-container" style="width: 504px;height: 260px;border: 1px solid #cccccc;margin: 10px 10px 10px 100px;" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#" ><img src="image/11.jpg" alt="" /></a></div>
+                <div class="swiper-slide"><a href="#" ><img src="image/22.jpg" alt="" /></a></div>
+                <div class="swiper-slide"><a href="#" ><img src="image/33.jpg" alt="" /></a></div>
+                <div class="swiper-slide"><a href="#" ><img src="image/44.jpg" alt="" /></a></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"  ></div>
+
+            <!-- 如果需要导航按钮 -->
+            <div id="left" class="swiper-button-prev swiper-button-black"   style="width:40px;height:40px;background-color: white;opacity: 0.5;border: 1px solid #ffffff;left:0"></div>
+            <div id="right" class="swiper-button-next swiper-button-black"  style="width:40px;height:40px;background-color: white;opacity: 0.5;border: 1px solid #ffffff;right:0"></div>
+            <!-- 如果需要滚动条 -->
+             <!--<div class="swiper-scrollbar"></div>-->
+           </div>
+
+          <script type="text/javascript" src="./js/swiper.min.js"></script>
+
+  </article>
   </body>
 </html>
