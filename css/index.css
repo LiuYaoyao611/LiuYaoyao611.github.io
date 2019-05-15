@@ -330,3 +330,13 @@
 #menu .h1 a{color: #101010;border-radius: 5px}
 #menu .h2 a{color: #101010;border-radius: 5px}
 #menu  h1 a{color: #e9eaed;border-radius: 5px}
+
+/*正文*/
+.article {
+    width: 970px;
+    height: 700px;
+    background-color: #FFFFFF;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
