@@ -1,9 +1,9 @@
 /*导航header标签设置*/
 .menu {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: #101010;
-    line-height:70px;
+    line-height:80px;
 }
 .menu a{
     margin-left: 15px;
@@ -13,9 +13,8 @@
 .menu h1{
     width: 200px;
     display: inline;
-    margin-left: 30px;
+    margin-left: 0;
     margin-right:80px ;
-    color:#cccccc;
 }
 .menu  li{
     display: inline;
@@ -27,40 +26,28 @@
 
 /*轮播图*/
 .swiper-wrapper img {
-    width: 130px;
-    height: 198px;
+    width: 600px;
+    height: 260px;
 }
 
 /*常用链接*/
 .links {
-    width: 745px;
-    height: 175px;
+    display:block;
     float: left;
-    color:#cccccc;
     margin: 10px 10px 10px 10px;
-    background-color: rgba(42,42,42,1);
 }
-.links ul{
-    margin-top: 15px;
-}
-.links li{
-    display: inline;
-    margin-left: 20px;
-    font-weight: bold;
-
-}
-/*.links img {
+.links img {
     width: 270px;
     height: 125px;
     border-radius: 5px;
-}*/
+}
 
 /*名片*/
 .card {
     width: 280px;
-    height: 200px;
+    height: 262px;
     background-color: rgba(42,42,42,1);
-    color:#cccccc;
+    color: white;
     display: block;
     float: left;
     margin:10px 10px 10px 10px;
@@ -77,7 +64,7 @@
 .personalInfo {
     color:#cccccc;
     font-size: small;
-    line-height: 20px;
+    line-height: 30px;
 }
 .card_link {
     margin-left: 30px;
@@ -131,7 +118,7 @@
 .tab_news {
     float: left;
     width: 895px;
-    height: 420px;
+    height: 350px;
     position: relative;
     background-color: white;
     margin:10px 10px 10px 120px;
@@ -143,7 +130,7 @@
     float: left;
     width: 895px;
     height: 300px;
-    /*position: relative;*/
+    position: relative;
 }
 .tab_container {
     list-style: none;
@@ -159,40 +146,12 @@
     width: 100%;
     height: 300px;
     box-sizing: border-box;
-    font-size: 16px;
-    /*text-align: center;*/
-    /*line-height: 300px;*/
+    font-size: 24px;
+    text-align: center;
+    line-height: 300px;
     color:#000000;
     transition: all .3s;
 }
-.project{
-    width: 840px;
-    height: 100px;
-    margin: 10px 10px 10px 20px;
-    border-radius: 5px;
-    background-color: #f0f1f4;
-    border-radius: 5px;
-    color: #101010;
-    float: left;
-}
-.project span{
-    width:8px;
-    height:8px;
-    color: #ffffff;
-    background-color: #000000;
-    display: inline-block;
-    border-radius: 100px;
-    margin-right: 10px;
-}
-
-.pro_name{
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 7px;
-    display: inline;
-    margin-left:20px;
-}
-
 .tab_content:target{
     opacity: 1;
 }
@@ -225,15 +184,12 @@
 #tab3 {
     /*background-color: #f0f;*/
 }
-#tab4 {
-    /*background-color: #f0f;*/
-}
 
 /*站长推荐*/
 .myRecommends {
     float: left;
     width: 280px;
-    height: 420px;
+    height: 350px;
     position: relative;
     background-color: #ffffff;
     float: left;
@@ -266,7 +222,7 @@
     margin-left: 10px;
 }
 .reco_content li:first-child {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .reco_content li{
     margin-left: 20px;
@@ -279,7 +235,7 @@
     font-weight: normal;
 }
 .reco_content {
-    line-height: 30px;
+    line-height: 40px;
     vertical-align: middle;
 }
 .recommend div{

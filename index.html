@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Blog of LiuYaojie</title>
+<head>
+    <title>Resume of LiuYaojie</title>
     <link rel="icon" href="title.ico" type="image/x-icon"/>
-    <meta http-equiv="keywords" content="Personal blog">
-    <meta http-equiv="description" content="This is the personal blog of LiuYaojie!">
+    <meta http-equiv="keywords" content="Resume of LiuYaojie">
+    <meta http-equiv="description" content="This is the personal Resume of LiuYaojie!">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css"  type="text/css" charset="utf-8">
@@ -12,128 +12,267 @@
     <link rel="stylesheet" href="./css/swiper.min.css"  type="text/css" charset="utf-8">
     <script type="text/javascript" src="./js/swiper.min.js"></script>
     <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script src="./js/Carousel.js"></script>
-  </head>
-  <body>
-  <!--头部固定导航开始-->
-  <header>
+    <script src="js/Carousel.js"></script>
+</head>
+<body style="position:fixed;" >
+<!--头部固定导航开始-->
+<header>
     <div class="nav">
-      <nav class="menu" id="topnav">
-        <img src="image/Avatar.png" style="display: inline-block; vertical-align: middle;margin-left: 15px" />
-        <li><h1><a href ="https://liuyaoyao611.github.io/">611の个人博客</a></h1></li>
-        <li><a  href="index.html"><b>网站首页</b></a></li>
-        <li><a href="study.html"><b>学习の笔记</b></a></li>
-        <li><a href="life.html"><b>生活の笔记</b></a></li>
-        <li style="float: right ;margin-right: 40px;" ><div id="search_bar" class="search_bar" style="display: inline " >
-           <form id="search_form" style="display:inline">
-             <input class="input" type="text" name="search_input"/>   
-             <input type="submit"  name="submit" value="搜索"/>         
-           </form>                                                    
-        </div>
-        </li>
-      </nav>
-     </div>
-  </header>
-  <!--首页内容-->
-  <article>
-    <div class="box">
-      <!--轮播，用插件swiper-->
-      <div class="swiper-container" style="width: 600px;height: 260px;border: 1px solid #cccccc;margin: 10px 10px 10px 120px;border-radius:5px;float: left " >
-              <div class="swiper-wrapper">
-                  <div class="swiper-slide"><a href="#" ><img src="image/11.jpg" alt="" /></a></div>
-                  <div class="swiper-slide"><a href="#" ><img src="image/22.jpg" alt="" /></a></div>
-                  <div class="swiper-slide"><a href="#" ><img src="image/33.jpg" alt="" /></a></div>
-                  <div class="swiper-slide"><a href="#" ><img src="image/44.jpg" alt="" /></a></div>
-              </div>
-              <!-- 如果需要分页器 -->
-              <div class="swiper-pagination"  ></div>
-              <!-- 如果需要导航按钮 -->
-              <div id="left" class="swiper-button-prev swiper-button-black"   style="width:40px;height:40px;background-color: white;opacity: 0.5;border: 1px solid #ffffff;left:0"></div>
-              <div id="right" class="swiper-button-next swiper-button-black"  style="width:40px;height:40px;background-color: white;opacity: 0.5;border: 1px solid #ffffff;right:0"></div>
-              <!-- 如果需要滚动条 -->
-               <!--<div class="swiper-scrollbar"></div>-->
-             </div>
-      <!--两个常用的链接-->
-      <div class="links" >
-        <ul>
-          <li><a href="https://www.pexels.com/"><img src="image/1.jpg"/></a></li>
-          <li style="margin-top: 7px" ><a href="https://www.easyicon.net/"><img src="image/2.jpg"/></a></li>
-        </ul>
-      </div>
-      <!--名片-->
-      <div class ="card">
-        <h1>我的名片</h1>
-        <ul class="card_info" >
-          <li class="personalInfo">名字：刘瑶瑶</li>
-          <li class="personalInfo">代号：611</li>
-          <li class="personalInfo">职业：997的研究僧</li>
-          <li class="personalInfo">现居：武汉理工大学</li>
-        </ul>
-        <ul class="card_link">
-          <li class="card_icon" id="git"><a href="https://github.com/LiuYaoyao611/LiuYaoyao611.github.io" target="_blank " title="我的Github地址"  ></a></li>
-          <li class="card_icon" id="mail"><a href="https://mail.qq.com/cgi-bin/frame_html?sid=gpITWcCwNpxN0Hkl&r=9f750727ba95867b70cc5e3b59ab692f" target="_blank " title="我的邮箱"   ></a></li>
-          <li class="card_icon" id="qq">
-              <a href="#" target="_self " title="我的QQ" ></a>
-            <i><img src="image/qq.jpg"/></i>
-          </li>
-          <li class="card_icon" id="wechat">
-            <a href="#" target="_self "  title="我的微信"></a>
-            <i><img src="image/weiChat.jpg"/></i>
-          </li>
-        </ul>
-      </div>
-      <!--更新列表-->
-      <div class="tab_news">
-       <ul>
-         <li class="tab_container" >
-           <div class="tab_content" id="tab1">tab1内容</div>
-            <a href="#tab1">个人博客</a>
-         </li>
-         <li class="tab_container" >
-         <div class="tab_content" id="tab2">tab2内容</div>
-         <a href="#tab2">学习笔记</a>
-         </li>
-         <li class="tab_container" >
-           <div class="tab_content" id="tab3">tab3内容</div>
-           <a href="#tab3">生活笔记</a>
-         </li>
-         <li><a href="#tab1" style="float: right;font-size: small;text-decoration: none;color: black;width:100px;height: 50px;line-height:50px" >最近更新</a></li>
-       </ul>
-      </div>
-      <!--站长推荐-->
-      <div class="myRecommends" >
-        <div class="reco_title" >站长推荐</div>
-        <div class="reco_content">
-          <ul>
-            <li class="recommend" >
-              <span>1</span>
-              <div>推荐1</div>
+        <nav class="menu" id="topnav">
+            <!--<img src="image/Avatar.png" style="display: inline-block; vertical-align: middle;margin-left: 15px" />-->
+            <li><h1><a href ="#">刘瑶杰的个人简历（Resume of LiuYaojie）</a></h1></li>
+            <!--<li><a  href="index.html"><b>网站首页</b></a></li>
+            <li><a href="study.html"><b>学习の笔记</b></a></li>
+            <li><a href="life.html"><b>生活の笔记</b></a></li>
+            <li style="float: right ;margin-right: 40px;" ><div id="search_bar" class="search_bar" style="display: inline " >-->
+                <!--<form id="search_form" style="display:inline">
+                    <input class="input" type="text" name="search_input"/>
+                    <input type="submit"  name="submit" value="搜索"/>
+                </form>-->
+
             </li>
-            <li class="recommend" >
-              <span>2</span>
-              <div>推荐2</div>
-            </li>
-          </ul>
-        </div>
-      </div>
-  </div>
-  </article>
-  <!--固定页脚-->
-  <footer>
-    <div class="foot_nav" >
-      <div class="weichat_img">
-        <ul>
-          <li><img src="image/weiChat.jpg" /></li>
-          <li>我的微信</li>
-        </ul>
-      </div>
-      <div class="statement">
-        <h4>站点声明:</h4>
-        <p>1、本站个人博客，均为刘瑶杰本人设计，个人可以使用，但是未经许可不得用于任何商业目的。</p>
-        <p>2、本站内容均为刘瑶杰个人笔记，转载请注明出处。</p>
-        <p>3、本站通过GitHub pages部署。</p>
-      </div>
+        </nav>
     </div>
-  </footer>
-  </body>
+</header>
+<!--首页内容-->
+<article>
+    <div class="box">
+        <!--轮播，用插件swiper-->
+        <div class="swiper-container" style="width: 130px;height: 198px;border: 1px solid #cccccc;margin: 10px 10px 10px 120px;border-radius:5px;float: left " >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#" ><img src="image/Avatar2.png" alt="" /></a></div>
+                <div class="swiper-slide"><a href="#" ><img src="image/Avatar3.png" alt="" /></a></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"  ></div>
+            <!-- 如果需要导航按钮 -->
+            <div id="left" class="swiper-button-prev swiper-button-black"   style="width:40px;height:40px;background-color: white;opacity: 0;border: 1px solid #ffffff;left:0"></div>
+            <div id="right" class="swiper-button-next swiper-button-black"  style="width:40px;height:40px;background-color: white;opacity: 0;border: 1px solid #ffffff;right:0"></div>
+            <!-- 如果需要滚动条 -->
+            <!--<div class="swiper-scrollbar"></div>-->
+        </div>
+        <!--学历-->
+        <div class="links" style="width: 742px;height: 200px;display: block ;background-color: rgba(42,42,42,1);border-radius: 5px;">
+            <h2 style="font-size: 18px;display:block ;margin-left: 10px;margin-top:5px; " >教育经历</h2>
+            <ul>
+                <li>2013.09-2017.06</li>
+                <li>武汉理工大学</li>
+                <li>本科</li>
+                <li>信息工程学院</li>
+                <li>电子科学与技术专业</li>
+                <li  style="display: block ;font-weight: normal;font-size: 14px;margin-top: 6px">主修单片机、通信原理、计算机网络与C语言等专业课程，另外选修过JAVA、数据库应用等课程。</li>
+            </ul>
+            <ul style="margin-top: 15px" >
+                <li>2017.09-2020.06</li>
+                <li>武汉理工大学</li>
+                <li>硕士（保研）</li>
+                <li>信息工程学院</li>
+                <li>信息与通信工程专业</li>
+                <li  style="display: block ;font-weight: normal;font-size: 14px;margin-top: 6px">主修现代数字信号处理、数字通信、统计信号分析、模式识别等专业课程；参与康复机器人国家自然科学基金项目，主要研究方向为基于虚拟现实的生物力学人机交互。</li>
+            </ul>
+        </div>
+        <!--名片-->
+        <div class ="card">
+            <h2 style="border: 0;margin: 5px 5px 5px 10px; padding: 0px;font-size: 18px;" >我的名片</h2>
+            <ul class="card_info" >
+                <li class="personalInfo">名字：刘瑶杰</li>
+                <li class="personalInfo">生日：1995年1月11日</li>
+                <li class="personalInfo">政治面貌：中共党员</li>
+                <li class="personalInfo">联系电话：15271858042</li>
+            </ul>
+            <ul class="card_link">
+                <li class="card_icon" id="git"><a href="https://github.com/LiuYaoyao611/LiuYaoyao611.github.io" target="_blank " title="我的Github地址"  ></a></li>
+                <li class="card_icon" id="mail"><a href="mailto:liuyaojie11@126.com"  title="我的邮箱:liuyaojie11@126.com"   ></a></li>
+                <li class="card_icon" id="qq">
+                    <a href="#" target="_self " title="我的QQ" ></a>
+                    <i><img src="image/qq.jpg"/></i>
+                </li>
+                <li class="card_icon" id="wechat">
+                    <a href="#" target="_self "  title="我的微信"></a>
+                    <i><img src="image/weiChat.jpg"/></i>
+                </li>
+            </ul>
+        </div>
+        <!--tab列表-->
+        <div class="tab_news">
+            <ul>
+                <li class="tab_container" >
+                    <div class="tab_content" id="tab1">
+                       <div class="project" >
+                           <ul style="line-height:20px;margin-left: 10px;margin-top: 7px" >
+                               <li class="pro_name" style="margin-left: 1px" >2018.01 - 2018.06 </li>
+                               <li class="pro_name" >武汉市园林与林业局自动化办公系统</li>
+                               <li class="pro_name" >web前端开发及测试</li>
+                               <li><span></span>担任前端小组组长，负责日常工作安排;</li>
+                               <li><span></span>参与自动化办公系统的开发，主要负责网页内容及结构设计优化;</li>
+                               <li><span></span>与安卓及ios客户端联合测试。</li>
+                           </ul>
+                       </div>
+                        <div class="project" style="height:77px" >
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2017.09 - 2017.12</li>
+                                <li class="pro_name" >武汉市园林与林业局网站及后台管理系统</li>
+                                <li class="pro_name" >web前端开发及测试</li>
+                                <li><span></span>担任前端小组组长，负责日常工作安排汇报，与甲方交流界面需求;</li>
+                                <li><span></span>与前端成员一起完成网站开发，主要利用html，css以及js实现管理系统功能，并进行功能测试完善。</li>
+                            </ul>
+                        </div>
+                        <div class="project" >
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2014.04 - 2015.04</li>
+                                <li class="pro_name" >国家大学生创新实践项目《基于图像处理的皮肤病理参赛检测系统》</li>
+                                <li class="pro_name" >图像处理算法</li>
+                                <li><span></span>对有皮损的皮肤图片进行预处理，主要包括平滑处理，形态学去噪，增强对比度等;</li>
+                                <li style="width: 800px" ><span></span>提取特征参数，主要通过纹理模型，边缘检测，HSV空间模型等提取计算皮肤光滑度、色素、水分、油分、皮损形态等参数，实现皮肤状态的图像识别。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#tab1">项目经历</a>
+                </li>
+                <li class="tab_container" >
+                    <div class="tab_content" id="tab2">
+                        <div class="project" style="height: 70px" >
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2017.12</li>
+                                <li class="pro_name" >武汉理工大学第五届IM杯科技竞赛</li>
+                                <li class="pro_name" >二等奖</li>
+                                <li style="margin-top: 10px" ><span></span>以“基于虚拟现实的机器人辅助康复训练环境”为参赛作品，担任小组长，负责unity游戏设计及现场答辩</li>
+                            </ul>
+                        </div>
+                        <div class="project" style="height: 70px">
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px;" >
+                                <li class="pro_name" style="margin-left: 1px" >2016.11</li>
+                                <li class="pro_name" >全国第十届 “挑战杯”大学生创业计划赛</li>
+                                <li class="pro_name" >铜奖</li>
+                                <li style="margin-top: 10px" ><span></span>担任武汉悦肤科技创业团队产品总监， 负责智能硬件产品的设计开发和网络云平台的运营</li>
+                            </ul>
+                        </div>
+                        <div class="project" style="height:42px" >
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2016.07</li>
+                                <li class="pro_name" >第三届九同方杯大学生电子IC设计大赛</li>
+                                <li class="pro_name" >优胜奖</li>
+                            </ul>
+                        </div>
+                    <div class="project" style="height: 42px">
+                        <ul style="line-height:20px;margin-left: 10px;margin-top: 7px;" >
+                            <li class="pro_name" style="margin-left: 1px" >2016.06</li>
+                            <li class="pro_name" >"创青春"湖北省大学生创业大赛创业计划赛</li>
+                            <li class="pro_name" >金奖</li>
+                        </ul>
+                    </div>
+                    <div class="project" style="height:42px" >
+                        <ul style="line-height:20px;margin-left: 10px;margin-top: 7px" >
+                            <li class="pro_name" style="margin-left: 1px" >2015.12</li>
+                            <li class="pro_name" >武汉理工大学第十五届“创新杯”创业大赛</li>
+                            <li class="pro_name" >金奖</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <a href="#tab2">赛事经历</a>
+                </li>
+                <li class="tab_container" >
+                    <div class="tab_content" id="tab3">
+                        <div class="project" style="height:42px;margin-top: 30px" >
+                        <ul style="line-height:25px;margin-left: 10px;margin-top: 7px" >
+                            <li class="pro_name" style="margin-left: 1px" >2018年</li>
+                            <li class="pro_name" >武汉理工大学一等奖学金</li>
+                        </ul>
+                        </div>
+                        <div class="project" style="height:42px;margin-top: 15px" >
+                            <ul style="line-height:25px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2017年</li>
+                                <li class="pro_name" >国家硕士卓越奖学金</li>
+                            </ul>
+                        </div>
+                        <div class="project" style="height:42px;margin-top: 15px" >
+                            <ul style="line-height:25px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2017年</li>
+                                <li class="pro_name" >武汉理工大学本科优秀毕业生</li>
+                            </ul>
+                        </div>
+                        <div class="project" style="height:42px;margin-top: 15px" >
+                            <ul style="line-height:25px;margin-left: 10px;margin-top: 7px" >
+                                <li class="pro_name" style="margin-left: 1px" >2016年</li>
+                                <li class="pro_name" >武汉理工大学信息工程学院三好学生</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#tab3">荣誉奖项</a>
+                </li>
+                <li class="tab_container" >
+                    <div class="tab_content" id="tab4">
+                        <div class="project" style="height: 100px">
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px;" >
+                                <li class="pro_name" style="margin-left: 1px" >2017.09 - 2018.09</li>
+                                <li class="pro_name" >武汉理工大学信息工程学院研究生会</li>
+                                <li class="pro_name" >体育部干事</li>
+                                <li style="margin-top: 10px" ><span></span>参与组织策划院篮球赛、羽毛球、乒乓球、师生趣味运动会等活动</li>
+                                <li style="margin-top: 10px" ><span></span>负责各项比赛活动的宣传、报名以及现场组织调配</li>
+                            </ul>
+                        </div>
+                        <div class="project" style="height: 100px">
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px;" >
+                                <li class="pro_name" style="margin-left: 1px" >2016.10 - 2017.06</li>
+                                <li class="pro_name" >武汉理工大学就业指导中心</li>
+                                <li class="pro_name" >学生就业工作服务队干事</li>
+                                <li style="margin-top: 10px" ><span></span>提前与校招企业联系，确定宣讲会事宜，配合校招企业现场宣讲，场地设备安排</li>
+                                <li style="margin-top: 10px" ><span></span>与校招企业一起指导应届学生参加笔试面试</li>
+                            </ul>
+                        </div>
+                        <div class="project" style="height: 100px">
+                            <ul style="line-height:20px;margin-left: 10px;margin-top: 7px;" >
+                                <li class="pro_name" style="margin-left: 1px" >2014.03 - 2015.09</li>
+                                <li class="pro_name" >武汉理工大学信息工程学院马克思学生研究会</li>
+                                <li class="pro_name" >理论部部长</li>
+                                <li style="margin-top: 10px" ><span></span>与辩论协会组织策划辩论赛，并担任院赛评委</li>
+                                <li style="margin-top: 10px" ><span></span>参与组织策划演讲比赛和配音大赛</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#tab4">校内活动</a>
+                </li>
+               <!-- <li><a href="#tab1" style="float: right;font-size: small;text-decoration: none;color: black;width:100px;height: 50px;line-height:50px" >最近更新</a></li>-->
+            </ul>
+        </div>
+        <!--站长推荐-->
+        <div class="myRecommends" >
+            <div class="reco_title" >专业技能</div>
+            <div class="reco_content">
+                <ul>
+                    <li class="recommend" style="height:40px;line-height: 40px" >
+                        <span>1</span>
+                        <div>语言技能：英语CET6</div>
+                    </li>
+                    <li class="recommend" style="height: 120px"  >
+                        <span>2</span>
+                        <div>专业技能：熟悉Web前端开发，熟练掌握HTML、CSS及JavaScript，了解网络通信及数据库</div>
+                    </li>
+                    <li class="recommend" style="height: 150px"  >
+                        <span>3</span>
+                        <div>自我评价：工作积极认真，细心负责，有较强的分析能力；勤奋好学，认真负责，有很强的社会责任感；坚毅不拔，吃苦耐劳，喜欢和勇于迎接新挑战。</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+<!--固定页脚-->
+<!--<footer>
+    <div class="foot_nav" >
+        <div class="weichat_img">
+            <ul>
+                <li><img src="image/weiChat.jpg" /></li>
+                <li>我的微信</li>
+            </ul>
+        </div>
+        <div class="statement">
+            <h4>站点声明:</h4>
+            <p>1、本站个人博客，均为刘瑶杰本人设计，个人可以使用，但是未经许可不得用于任何商业目的。</p>
+            <p>2、本站内容均为刘瑶杰个人笔记，转载请注明出处。</p>
+            <p>3、本站通过GitHub pages部署。</p>
+        </div>
+    </div>
+</footer>-->
+</body>
 </html>
